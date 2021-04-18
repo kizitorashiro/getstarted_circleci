@@ -1,6 +1,6 @@
 function getTimeZoneOffsetHours() {
     const date = new Date();
-    return date.getTimeZoneOffsetHours() / 60;
+    return date.getTimeZoneOffset() / 60;
 }
 
 module.exports = getTimeZoneOffsetHours
